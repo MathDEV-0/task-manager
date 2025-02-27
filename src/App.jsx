@@ -1,13 +1,18 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import TaskList from "./components/TaskList";
+import TaskForm from "./components/TaskForm";
 
 function App() {
+  const [tasks, setTasks] = useState([]);
+
+  const addTask = (task) => {
+    setTasks([...tasks, task]);
+  };
   return (
     <div>
-      <h1>Task Manager</h1>
-      <p>Vamos construir um gerenciador de tarefas!</p>
+      <h1>Gerenciador de Tarefas</h1>
+      <TaskForm addTask={addTask} />
+      <TaskList tasks={tasks} />
     </div>
   );
 }
