@@ -1,0 +1,26 @@
+.task-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.task-list {
+  width: 200px;
+  min-height: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+}
+
+.urgente {
+  background-color: #ff4d4d;
+}
+.alta {
+  background-color: #ffae42;
+}
+.media {
+  background-color: #ffff66;
+}
+.baixa {
+  background-color: #99ff99;
+}

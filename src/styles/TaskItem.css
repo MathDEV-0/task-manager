@@ -1,0 +1,46 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+.task-text {
+  flex-grow: 1;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.trash-icon {
+  color: red;
+  font-size: 1.2rem;
+}
+
+.delete-button:hover .trash-icon {
+  color: darkred;
+}
+
+.task-item {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: grab;
+  transition: transform 0.2s ease-in-out;
+}
+
+.task-item:hover {
+  transform: scale(1.05);
+}
+
+.task-item:active {
+  cursor: grabbing;
+}

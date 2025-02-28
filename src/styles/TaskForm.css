@@ -12,12 +12,12 @@ input {
 
 button {
   background-color: #45a049;
-  color: #dfd9d9;
+  color: #fff;
   padding: 8px 12px;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #5ad360;
 }

@@ -15,3 +15,36 @@ li {
 li:hover {
   background: #2f3bac;
 }
+
+.task-list {
+  width: 250px;
+  min-height: 300px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.task-list.urgente {
+  border: 3px solid red;
+}
+
+.task-list.alta {
+  border: 3px solid orange;
+}
+
+.task-list.media {
+  border: 3px solid yellow;
+}
+
+.task-list.baixa {
+  border: 3px solid green;
+}
+
+.task-list h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
