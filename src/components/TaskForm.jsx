@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./../styles/TaskForm.css";
 
 const TaskForm = ({ addTask }) => {
   const [task, setTask] = useState(""); // Cria um hook que armazena a atualização da tarefa (set) e a definição dele

@@ -1,3 +1,5 @@
+import "./../styles/TaskList.css";
+
 const TaskList = ({ tasks }) => {
   return (
     <div>

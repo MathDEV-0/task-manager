@@ -1,12 +1,13 @@
 import { useState } from "react";
+import "./styles/App.css";
 import TaskList from "./components/TaskList";
 import TaskForm from "./components/TaskForm";
 
 function App() {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState([]); //armazenar tasks no array
 
   const addTask = (task) => {
-    setTasks([...tasks, task]);
+    setTasks([...tasks, task]); //adicionar as tasks
   };
   return (
     <div>
