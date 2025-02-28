@@ -46,7 +46,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #a0aedd;
+  background: rgb(115, 143, 221, 0.575);
   display: flex;
   justify-content: center;
   align-items: flex-start;

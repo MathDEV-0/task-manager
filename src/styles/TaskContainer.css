@@ -2,6 +2,9 @@
   display: flex;
   gap: 10px;
   justify-content: center;
+  background-color: rgba(115, 143, 221, 0);
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .task-list {
@@ -9,7 +12,7 @@
   min-height: 300px;
   padding: 10px;
   border-radius: 8px;
-  background-color: #f3f3f3;
+  background-color: #ffffff;
 }
 
 .urgente {
@@ -19,7 +22,7 @@
   background-color: #ffae42;
 }
 .media {
-  background-color: #ffff66;
+  background-color: #e2e22d;
 }
 .baixa {
   background-color: #99ff99;
