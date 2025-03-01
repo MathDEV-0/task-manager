@@ -46,7 +46,10 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: rgb(115, 143, 221, 0.575);
+  background-image: url("/public/fundo2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: flex-start;
